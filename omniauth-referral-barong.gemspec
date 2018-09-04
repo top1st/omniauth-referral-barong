@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "omniauth/barong/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-refferal-barong"
+  spec.name          = "omniauth-referral-barong"
   spec.version       = OmniAuth::Barong::VERSION
   spec.authors       = ["Louis Bellet","Yaroslav Savchuk"]
   spec.email         = ["riguang102@gmail.com"]
