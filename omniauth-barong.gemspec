@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "omniauth/barong/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-barong"
+  spec.name          = "omniauth-refferal-barong"
   spec.version       = OmniAuth::Barong::VERSION
   spec.authors       = ["Louis Bellet","Yaroslav Savchuk"]
-  spec.email         = ["lbellet@heliostech.fr","ysavchuk@heliostech.fr"]
+  spec.email         = ["riguang102@gmail.com"]
 
-  spec.summary       = %q{Authentification strategy for Barong server}
+  spec.summary       = %q{Authentification strategy for referral Barong server}
   spec.description   = %q{Barong is an opensource OAuth and KyC server}
   spec.homepage      = "https://www.peatio.tech/"
 
