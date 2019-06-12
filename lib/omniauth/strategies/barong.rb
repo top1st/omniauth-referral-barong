@@ -47,7 +47,9 @@ module OmniAuth
             level:  raw_info['level'],
             state:  raw_info['state'],
             referral_code: raw_info['referral_code'],
-            code: raw_info['uid']
+            code: raw_info['uid'],
+            first_name: raw_info['first_name'],
+            last_name: raw_info['last_name']
         }
       end
 
