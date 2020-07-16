@@ -6,12 +6,12 @@ require "omniauth/barong/version"
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-referral-barong"
   spec.version       = OmniAuth::Barong::VERSION
-  spec.authors       = ["Louis Bellet","Yaroslav Savchuk"]
+  spec.authors       = ["top1st","xiqian"]
   spec.email         = ["riguang102@gmail.com"]
 
   spec.summary       = %q{Authentification strategy for referral Barong server}
   spec.description   = %q{Barong is an opensource OAuth and KyC server}
-  spec.homepage      = "https://www.peatio.tech/"
+  spec.homepage      = "https://github.com/top1st"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
