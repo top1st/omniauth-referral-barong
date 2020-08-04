@@ -12,6 +12,7 @@
 
 # Ignore RubyMine files
 .idea
+.rakeTasks
 
 /vendor/bundle
 /vendor/assets/yarn_components
